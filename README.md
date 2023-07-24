@@ -9,18 +9,26 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-This repository contains Cloud Native Monitoring App which monitor CPU and Memory usages
+This repository contains Cloud Native Monitoring App which monitors CPU and Memory usage
 
 ## Table of contents
 
 - [Why](#why)
 - [Getting Started](#getting-started)
 - [What's Included](#tools-included-in-this-repo)
-- [Bugs and Feature Requests](#bugs-and-feature-requests)
+- [Screenshot](#screenshot)
 - [Creator](#creator)
 - [Copyright and License](#copyright-and-license)
 
 ## Why
+**The project involves implementing a monitoring application on Amazon Web Services (AWS) using various tools and technologies**
+* The project utilizes the AWS Command Line Interface [(CLI)](https://aws.amazon.com/cli/) for interacting with AWS services.
+* [eksctl](https://eksctl.io/) for managing an Amazon Elastic Kubernetes Service [(EKS)](https://aws.amazon.com/eks/) cluster.
+* Amazon Elastic Container Registry [(Amazon ECR)](https://aws.amazon.com/ecr/) to manage container image registry services.
+* Python [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) scripts for automating AWS API interactions.
+* Using [Flask](https://flask.palletsprojects.com/en/2.3.x/) to create a basic web page that displays the current CPU and memory utilization of the system.
+* [psutil](https://pypi.org/project/psutil/) module, which stands for "process and system utilities." It is used to retrieve information about the system's CPU
+* GitHub for version control.
 
 ## Getting Started
 
@@ -49,4 +57,6 @@ The AWS CLI will prompt you for four pieces of information. AWS Access Key ID an
 
 The AWS CLI supports named profiles stored in the config and credentials files. You can configure additional profiles by using `aws configure` with the `--profile option` or by adding entries to the config and credentials files.
 
+## Screenshot
+fafasfafafafasf
 `$ aws configure --profile example`
