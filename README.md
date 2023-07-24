@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://github.com/Teebra/aws/raw/master/images/aws.png" alt="AWS" width=130 height=130></h1>
+<h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/225px-Amazon_Web_Services_Logo.svg.png" alt="AWS" width=130 height=130></h1>
 
 <h2 align="center">cloud-native-monitoring-app with <a href="https://aws.amazon.com/" target="_blank">Amazon Web Services</a> using the <a href="https://aws.amazon.com/cli/" target="_blank">AWS CLI</a> and <a href="https://eksctl.io/" target="_blank">eksctl</a>.</h2>
 
@@ -15,10 +15,7 @@ This repository contains Cloud Native Monitoring App which monitors CPU and Memo
 
 - [Why](#why)
 - [Getting Started](#getting-started)
-- [What's Included](#tools-included-in-this-repo)
 - [Screenshot](#screenshot)
-- [Creator](#creator)
-- [Copyright and License](#copyright-and-license)
 
 ## Why
 **The project involves implementing a monitoring application on Amazon Web Services (AWS) using various tools and technologies**
@@ -58,4 +55,4 @@ The AWS CLI will prompt you for four pieces of information. AWS Access Key ID an
 The AWS CLI supports named profiles stored in the config and credentials files. You can configure additional profiles by using `aws configure` with the `--profile option` or by adding entries to the config and credentials files.
 
 ## Screenshot
-![alt text](https://github.com/Teebra/cloud-native-monitoring-app/blob/main/Screenshot/image1.png?raw=true)
+![screen](https://user-images.githubusercontent.com/125788246/255518762-0804313f-c58a-42a9-8861-058f1904ebcd.png)
