@@ -53,10 +53,9 @@ For general use, the aws configure command is the fastest way to set up your AWS
 
 The AWS CLI will prompt you for four pieces of information. AWS Access Key ID and AWS Secret Access Key are your account credentials.
 
-[Named Profiles](https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
+[Named Profiles]([https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html](https://github.com/Teebra/cloud-native-monitoring-app/blob/main/Screenshot/image1.png))
 
 The AWS CLI supports named profiles stored in the config and credentials files. You can configure additional profiles by using `aws configure` with the `--profile option` or by adding entries to the config and credentials files.
 
 ## Screenshot
-fafasfafafafasf
-`$ aws configure --profile example`
+![screen](https://github.com/Teebra/cloud-native-monitoring-app/blob/main/Screenshot/image1.png)
