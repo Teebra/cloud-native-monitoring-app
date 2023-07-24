@@ -58,4 +58,4 @@ The AWS CLI will prompt you for four pieces of information. AWS Access Key ID an
 The AWS CLI supports named profiles stored in the config and credentials files. You can configure additional profiles by using `aws configure` with the `--profile option` or by adding entries to the config and credentials files.
 
 ## Screenshot
-![screen](https://github.com/Teebra/cloud-native-monitoring-app/blob/main/Screenshot/image1.png)
+![alt text](https://github.com/Teebra/cloud-native-monitoring-app/blob/main/Screenshot/image1.png?raw=true)
